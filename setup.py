@@ -50,7 +50,7 @@ def defaultSetup():
     setupdict=dict(
     	# basic settings to create sdist tar with files under version control
         name = name,
-        description = name,
+        description = 'man in the middle proxy',
         setup_requires = ["setuptools_git >= 0.3"],
         version      = __version__,
         long_description = long_description(),
